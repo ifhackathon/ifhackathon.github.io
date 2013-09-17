@@ -7243,46 +7243,52 @@ section {
 }
 
 /* line 28, ../sass/_main.scss */
+.announcement_labels {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 33, ../sass/_main.scss */
 ::-webkit-input-placeholder {
   color: #8892a8;
 }
 
-/* line 32, ../sass/_main.scss */
+/* line 37, ../sass/_main.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: #8892a8;
 }
 
-/* line 36, ../sass/_main.scss */
+/* line 41, ../sass/_main.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #8892a8;
 }
 
-/* line 40, ../sass/_main.scss */
+/* line 45, ../sass/_main.scss */
 :-ms-input-placeholder {
   color: #8892a8;
 }
 
-/* line 44, ../sass/_main.scss */
+/* line 49, ../sass/_main.scss */
 #Registration {
   background-color: #b7c9d3;
 }
-/* line 47, ../sass/_main.scss */
+/* line 52, ../sass/_main.scss */
 #Registration.success .mackbook .screen {
   background-color: #6fc497;
 }
-/* line 49, ../sass/_main.scss */
+/* line 54, ../sass/_main.scss */
 #Registration.success .mackbook .screen form {
   display: none;
 }
-/* line 52, ../sass/_main.scss */
+/* line 57, ../sass/_main.scss */
 #Registration.success .mackbook .screen .success-msg {
   display: block;
   text-align: center;
   margin-top: 100px;
 }
-/* line 56, ../sass/_main.scss */
+/* line 61, ../sass/_main.scss */
 #Registration.success .mackbook .screen .success-msg .cup {
   background: url("../images/cup.png");
   height: 127px;
@@ -7290,7 +7296,7 @@ section {
   width: 132px;
   margin-right: -28px;
 }
-/* line 63, ../sass/_main.scss */
+/* line 68, ../sass/_main.scss */
 #Registration.success .mackbook .screen .success-msg .good {
   margin: 15px 0 0 0;
   font-family: 'kelson_sans_ruregular';
@@ -7298,13 +7304,13 @@ section {
   line-height: 14px;
   color: #fff;
 }
-/* line 70, ../sass/_main.scss */
+/* line 75, ../sass/_main.scss */
 #Registration.success .mackbook .screen .success-msg .wait {
   font-family: 'kelson_sans_ruregular';
   font-size: 12px;
   color: #a7e8c5;
 }
-/* line 81, ../sass/_main.scss */
+/* line 86, ../sass/_main.scss */
 #Registration .mackbook {
   position: absolute;
   margin: auto;
@@ -7316,7 +7322,7 @@ section {
   height: 503px;
   background: url("../images/macbook.png");
 }
-/* line 91, ../sass/_main.scss */
+/* line 96, ../sass/_main.scss */
 #Registration .mackbook .screen {
   position: absolute;
   margin: auto;
@@ -7327,11 +7333,11 @@ section {
   height: 407px;
   background-color: #f77f82;
 }
-/* line 100, ../sass/_main.scss */
+/* line 105, ../sass/_main.scss */
 #Registration .mackbook .screen .success-msg {
   display: none;
 }
-/* line 104, ../sass/_main.scss */
+/* line 109, ../sass/_main.scss */
 #Registration .mackbook .screen form {
   position: absolute;
   left: 0;
@@ -7342,14 +7348,14 @@ section {
   width: 230px;
   height: 227px;
 }
-/* line 110, ../sass/_main.scss */
+/* line 115, ../sass/_main.scss */
 #Registration .mackbook .screen form input {
   margin-bottom: 9px;
   height: 27px;
   background-color: #fcddde;
   color: #1d3556;
 }
-/* line 116, ../sass/_main.scss */
+/* line 121, ../sass/_main.scss */
 #Registration .mackbook .screen form select {
   font-size: 15px;
   border: 1px solid lightblue;
@@ -7365,7 +7371,7 @@ section {
   background-size: 18px 18px;
   margin: 0 0 61px 0;
 }
-/* line 131, ../sass/_main.scss */
+/* line 136, ../sass/_main.scss */
 #Registration .mackbook .screen form .btn-submit {
   width: 100%;
   margin: 0;
@@ -7379,19 +7385,19 @@ section {
   letter-spacing: 1px;
   line-height: 21px;
 }
-/* line 143, ../sass/_main.scss */
+/* line 148, ../sass/_main.scss */
 #Registration .mackbook .screen form .btn-submit:active {
   margin-top: 1px;
 }
 
-/* line 153, ../sass/_main.scss */
+/* line 158, ../sass/_main.scss */
 #Map .map-slide-wrapper {
   position: relative;
   height: 100%;
   padding-bottom: 39px;
 }
 
-/* line 160, ../sass/_main.scss */
+/* line 165, ../sass/_main.scss */
 .logo-wrapper {
   position: absolute;
   top: 0;
@@ -7403,11 +7409,11 @@ section {
   height: 397px;
   padding-top: 20px;
 }
-/* line 167, ../sass/_main.scss */
+/* line 172, ../sass/_main.scss */
 .logo-wrapper .logo {
   position: absolute;
 }
-/* line 170, ../sass/_main.scss */
+/* line 175, ../sass/_main.scss */
 .logo-wrapper .logo-shadow {
   position: absolute;
   display: block;
@@ -7418,7 +7424,7 @@ section {
   background-image: url("../images/logo-shadow.png");
 }
 
-/* line 182, ../sass/_main.scss */
+/* line 187, ../sass/_main.scss */
 .about {
   padding-left: 2.375em;
   line-height: 1.5;
@@ -7426,7 +7432,7 @@ section {
   max-width: 540px;
 }
 
-/* line 189, ../sass/_main.scss */
+/* line 194, ../sass/_main.scss */
 .about-title {
   font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #ffffff;
@@ -7434,21 +7440,21 @@ section {
   font-weight: 100 !important;
 }
 
-/* line 196, ../sass/_main.scss */
+/* line 201, ../sass/_main.scss */
 .about-description {
   color: #62979b;
   font-size: 1.125em;
   font-weight: 500 !important;
 }
 
-/* line 202, ../sass/_main.scss */
+/* line 207, ../sass/_main.scss */
 .about-details {
   color: #62979b;
   font-size: 0.8125em;
   padding-bottom: 4.375em;
 }
 
-/* line 208, ../sass/_main.scss */
+/* line 213, ../sass/_main.scss */
 .floating-label {
   background-color: #1d3556;
   padding: 0.875em;
@@ -7458,7 +7464,7 @@ section {
   letter-spacing: 1px;
 }
 
-/* line 217, ../sass/_main.scss */
+/* line 222, ../sass/_main.scss */
 .nav_bars {
   position: absolute;
   bottom: 0;
@@ -7472,7 +7478,7 @@ section {
   vertical-align: middle;
   line-height: 48px;
 }
-/* line 227, ../sass/_main.scss */
+/* line 232, ../sass/_main.scss */
 .nav_bars a {
   color: #fff;
   font-size: 0.6875em;
@@ -7485,45 +7491,45 @@ section {
   width: 100%;
 }
 
-/* line 242, ../sass/_main.scss */
+/* line 247, ../sass/_main.scss */
 #second_nav_bar {
   background-position: 0 -48px;
 }
 
-/* line 246, ../sass/_main.scss */
+/* line 251, ../sass/_main.scss */
 #third_nav_bar {
   background-position: 0 -96px;
 }
 
-/* line 251, ../sass/_main.scss */
+/* line 256, ../sass/_main.scss */
 #fourth_nav_bar {
   height: 68px;
   background-position: 0 -144px;
   line-height: 88px;
   bottom: 39px;
 }
-/* line 256, ../sass/_main.scss */
+/* line 261, ../sass/_main.scss */
 #fourth_nav_bar a {
   color: #000;
 }
 
-/* line 261, ../sass/_main.scss */
+/* line 266, ../sass/_main.scss */
 #map_title {
   position: absolute;
   right: 0px;
   z-index: 9999;
 }
 
-/* line 267, ../sass/_main.scss */
+/* line 272, ../sass/_main.scss */
 #map {
   height: 100%;
 }
-/* line 269, ../sass/_main.scss */
+/* line 274, ../sass/_main.scss */
 #map img {
   max-width: none;
 }
 
-/* line 274, ../sass/_main.scss */
+/* line 279, ../sass/_main.scss */
 .bordered {
   display: block;
   position: absolute !important;
@@ -7533,23 +7539,23 @@ section {
   overflow: auto;
 }
 
-/* line 290, ../sass/_main.scss */
+/* line 295, ../sass/_main.scss */
 #bordered_left {
   left: -5px;
 }
 
-/* line 293, ../sass/_main.scss */
+/* line 298, ../sass/_main.scss */
 #bordered_right {
   right: -5px;
 }
 
-/* line 297, ../sass/_main.scss */
+/* line 302, ../sass/_main.scss */
 #map-data {
   background-color: #e5d196;
   padding: 0.625em;
   top: 3.75em;
 }
-/* line 298, ../sass/_main.scss */
+/* line 303, ../sass/_main.scss */
 #map-data div {
   padding: 1.8125em;
   text-align: center;
@@ -7558,28 +7564,28 @@ section {
   font-size: 1.125em;
   position: relative;
 }
-/* line 300, ../sass/_main.scss */
+/* line 305, ../sass/_main.scss */
 #map-data div p a {
   font-weight: bold;
   color: #1d3556;
 }
-/* line 305, ../sass/_main.scss */
+/* line 310, ../sass/_main.scss */
 #map-data div #phone {
   color: #fff;
   font-weight: 100 !important;
   font-size: 2.5em;
   line-height: 1.5;
 }
-/* line 312, ../sass/_main.scss */
+/* line 317, ../sass/_main.scss */
 #map-data div #address {
   font-size: 0.75em;
 }
-/* line 331, ../sass/_main.scss */
+/* line 336, ../sass/_main.scss */
 #map-data p {
   margin: 0;
 }
 
-/* line 336, ../sass/_main.scss */
+/* line 341, ../sass/_main.scss */
 footer {
   background-color: #ebe8b4;
   height: 39px;
@@ -7587,7 +7593,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* line 343, ../sass/_main.scss */
+/* line 348, ../sass/_main.scss */
 footer p {
   line-height: 39px;
   padding-left: 0.875em;
@@ -7595,16 +7601,16 @@ footer p {
   margin: 0;
   font-weight: 500 !important;
 }
-/* line 349, ../sass/_main.scss */
+/* line 354, ../sass/_main.scss */
 footer p span {
   font-weight: 300 !important;
 }
-/* line 353, ../sass/_main.scss */
+/* line 358, ../sass/_main.scss */
 footer a {
   float: right;
 }
 
-/* line 360, ../sass/_main.scss */
+/* line 365, ../sass/_main.scss */
 .announcement_title {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
@@ -7615,7 +7621,7 @@ footer a {
   margin-bottom: 5px;
 }
 
-/* line 370, ../sass/_main.scss */
+/* line 375, ../sass/_main.scss */
 #time_left_label {
   font-size: 1.5em;
   color: #c02f34;
@@ -7625,13 +7631,13 @@ footer a {
   margin-bottom: -6px;
 }
 
-/* line 379, ../sass/_main.scss */
+/* line 384, ../sass/_main.scss */
 .blue_text {
   color: #1d3556;
   font-size: 0.9375em;
 }
 
-/* line 386, ../sass/_main.scss */
+/* line 391, ../sass/_main.scss */
 #announcement_highlight {
   color: #fff;
   font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -7641,26 +7647,26 @@ footer a {
   margin: 0;
 }
 
-/* line 400, ../sass/_main.scss */
+/* line 405, ../sass/_main.scss */
 #countdown_container {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
   margin-left: 0.25em;
   font-size: 5.3125em;
 }
-/* line 406, ../sass/_main.scss */
+/* line 411, ../sass/_main.scss */
 #countdown_container span {
   text-align: center;
   display: inline-block;
   font-weight: 300px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 411, ../sass/_main.scss */
+/* line 416, ../sass/_main.scss */
 #countdown_container span img {
   vertical-align: middle;
   margin: 0 14px 0 6px;
 }
-/* line 415, ../sass/_main.scss */
+/* line 420, ../sass/_main.scss */
 #countdown_container span i {
   display: block;
   color: #1d3556;
@@ -7669,12 +7675,12 @@ footer a {
   text-align: left;
 }
 
-/* line 425, ../sass/_main.scss */
+/* line 430, ../sass/_main.scss */
 #days {
   margin-left: 7px;
 }
 
-/* line 429, ../sass/_main.scss */
+/* line 434, ../sass/_main.scss */
 .underlined {
   color: #fff;
   font-size: 0.25em;
@@ -7682,12 +7688,12 @@ footer a {
   padding: 5em 0;
 }
 
-/* line 436, ../sass/_main.scss */
+/* line 441, ../sass/_main.scss */
 .justified {
   text-align: justify;
 }
 
-/* line 440, ../sass/_main.scss */
+/* line 445, ../sass/_main.scss */
 .map_info {
   position: absolute;
   top: 10px;
