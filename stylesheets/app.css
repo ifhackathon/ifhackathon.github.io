@@ -7734,7 +7734,7 @@ footer a {
   color: #fff;
   font-size: 5.3125em;
   text-align: center;
-  font-weight: 300;
+  font-weight: normal !important;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 5px;
 }
@@ -7776,15 +7776,14 @@ footer a {
 #countdown_container span {
   text-align: center;
   display: inline-block;
-  font-weight: 300px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 509, ../sass/_main.scss */
+/* line 508, ../sass/_main.scss */
 #countdown_container span img {
   vertical-align: middle;
   margin: 0 14px 0 6px;
 }
-/* line 513, ../sass/_main.scss */
+/* line 512, ../sass/_main.scss */
 #countdown_container span i {
   display: block;
   color: #1d3556;
@@ -7793,12 +7792,12 @@ footer a {
   text-align: left;
 }
 
-/* line 523, ../sass/_main.scss */
+/* line 522, ../sass/_main.scss */
 #days {
   margin-left: 7px;
 }
 
-/* line 527, ../sass/_main.scss */
+/* line 526, ../sass/_main.scss */
 .underlined {
   color: #fff;
   font-size: 0.25em;
@@ -7806,12 +7805,12 @@ footer a {
   padding: 5em 0;
 }
 
-/* line 534, ../sass/_main.scss */
+/* line 533, ../sass/_main.scss */
 .justified {
   text-align: justify;
 }
 
-/* line 538, ../sass/_main.scss */
+/* line 537, ../sass/_main.scss */
 .map_info {
   position: absolute;
   top: 10px;
