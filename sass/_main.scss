@@ -289,7 +289,6 @@ section{
   font-family: $light-font-family;
   color: #ffffff;
   font-size: emCalc(39);
-  font-weight: 100 !important;
 }
 
 .about-description {
@@ -403,7 +402,7 @@ section{
     }
     #phone {
       color: #fff;
-      font-weight: 100 !important;
+      font-family: $light-font-family;
       font-size: emCalc(40);
       line-height: 1.5;
     }
@@ -468,9 +467,9 @@ footer {
 
 #time_left_label {
   font-size: emCalc(24);
+  font-family: $light-font-family;
   color: #c02f34;
   text-align: center;
-  font-weight: 100 !important;
   margin-top: 21px;
   margin-bottom: -6px;
 }
@@ -499,7 +498,7 @@ footer {
 #countdown_container {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
-  margin-left: 0.25em;
+  margin-left: 0.45em;
   font-size: emCalc(85);
   // text-align: center;
     span {

@@ -7556,24 +7556,23 @@ section {
   font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #ffffff;
   font-size: 2.4375em;
-  font-weight: 100 !important;
 }
 
-/* line 295, ../sass/_main.scss */
+/* line 294, ../sass/_main.scss */
 .about-description {
   color: #62979b;
   font-size: 1.125em;
   font-weight: 500 !important;
 }
 
-/* line 301, ../sass/_main.scss */
+/* line 300, ../sass/_main.scss */
 .about-details {
   color: #62979b;
   font-size: 0.8125em;
   padding-bottom: 4.375em;
 }
 
-/* line 307, ../sass/_main.scss */
+/* line 306, ../sass/_main.scss */
 .floating-label {
   background-color: #1d3556;
   padding: 0.875em;
@@ -7583,7 +7582,7 @@ section {
   letter-spacing: 1px;
 }
 
-/* line 316, ../sass/_main.scss */
+/* line 315, ../sass/_main.scss */
 .nav_bars {
   position: absolute;
   bottom: 0;
@@ -7597,7 +7596,7 @@ section {
   vertical-align: middle;
   line-height: 48px;
 }
-/* line 326, ../sass/_main.scss */
+/* line 325, ../sass/_main.scss */
 .nav_bars a {
   color: #fff;
   font-size: 0.6875em;
@@ -7610,45 +7609,45 @@ section {
   width: 100%;
 }
 
-/* line 341, ../sass/_main.scss */
+/* line 340, ../sass/_main.scss */
 #second_nav_bar {
   background-position: 0 -48px;
 }
 
-/* line 345, ../sass/_main.scss */
+/* line 344, ../sass/_main.scss */
 #third_nav_bar {
   background-position: 0 -96px;
 }
 
-/* line 350, ../sass/_main.scss */
+/* line 349, ../sass/_main.scss */
 #fourth_nav_bar {
   height: 68px;
   background-position: 0 -144px;
   line-height: 88px;
   bottom: 39px;
 }
-/* line 355, ../sass/_main.scss */
+/* line 354, ../sass/_main.scss */
 #fourth_nav_bar a {
   color: #000;
 }
 
-/* line 360, ../sass/_main.scss */
+/* line 359, ../sass/_main.scss */
 #map_title {
   position: absolute;
   right: 0px;
   z-index: 9999;
 }
 
-/* line 366, ../sass/_main.scss */
+/* line 365, ../sass/_main.scss */
 #map {
   height: 100%;
 }
-/* line 368, ../sass/_main.scss */
+/* line 367, ../sass/_main.scss */
 #map img {
   max-width: none;
 }
 
-/* line 373, ../sass/_main.scss */
+/* line 372, ../sass/_main.scss */
 .bordered {
   display: block;
   position: absolute !important;
@@ -7658,23 +7657,23 @@ section {
   overflow: auto;
 }
 
-/* line 389, ../sass/_main.scss */
+/* line 388, ../sass/_main.scss */
 #bordered_left {
   left: -5px;
 }
 
-/* line 392, ../sass/_main.scss */
+/* line 391, ../sass/_main.scss */
 #bordered_right {
   right: -5px;
 }
 
-/* line 396, ../sass/_main.scss */
+/* line 395, ../sass/_main.scss */
 #map-data {
   background-color: #e5d196;
   padding: 0.625em;
   top: 3.75em;
 }
-/* line 397, ../sass/_main.scss */
+/* line 396, ../sass/_main.scss */
 #map-data div {
   padding: 1.8125em;
   text-align: center;
@@ -7683,28 +7682,28 @@ section {
   font-size: 1.125em;
   position: relative;
 }
-/* line 399, ../sass/_main.scss */
+/* line 398, ../sass/_main.scss */
 #map-data div p a {
   font-weight: bold;
   color: #1d3556;
 }
-/* line 404, ../sass/_main.scss */
+/* line 403, ../sass/_main.scss */
 #map-data div #phone {
   color: #fff;
-  font-weight: 100 !important;
+  font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 2.5em;
   line-height: 1.5;
 }
-/* line 411, ../sass/_main.scss */
+/* line 410, ../sass/_main.scss */
 #map-data div #address {
   font-size: 0.75em;
 }
-/* line 430, ../sass/_main.scss */
+/* line 429, ../sass/_main.scss */
 #map-data p {
   margin: 0;
 }
 
-/* line 435, ../sass/_main.scss */
+/* line 434, ../sass/_main.scss */
 footer {
   background-color: #ebe8b4;
   height: 39px;
@@ -7712,7 +7711,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* line 442, ../sass/_main.scss */
+/* line 441, ../sass/_main.scss */
 footer p {
   line-height: 39px;
   padding-left: 0.875em;
@@ -7720,16 +7719,16 @@ footer p {
   margin: 0;
   font-weight: 500 !important;
 }
-/* line 448, ../sass/_main.scss */
+/* line 447, ../sass/_main.scss */
 footer p span {
   font-weight: 300 !important;
 }
-/* line 452, ../sass/_main.scss */
+/* line 451, ../sass/_main.scss */
 footer a {
   float: right;
 }
 
-/* line 459, ../sass/_main.scss */
+/* line 458, ../sass/_main.scss */
 .announcement_title {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
@@ -7740,23 +7739,23 @@ footer a {
   margin-bottom: 5px;
 }
 
-/* line 469, ../sass/_main.scss */
+/* line 468, ../sass/_main.scss */
 #time_left_label {
   font-size: 1.5em;
+  font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #c02f34;
   text-align: center;
-  font-weight: 100 !important;
   margin-top: 21px;
   margin-bottom: -6px;
 }
 
-/* line 478, ../sass/_main.scss */
+/* line 477, ../sass/_main.scss */
 .blue_text {
   color: #1d3556;
   font-size: 0.9375em;
 }
 
-/* line 485, ../sass/_main.scss */
+/* line 484, ../sass/_main.scss */
 #announcement_highlight {
   color: #fff;
   font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -7766,26 +7765,26 @@ footer a {
   margin: 0;
 }
 
-/* line 499, ../sass/_main.scss */
+/* line 498, ../sass/_main.scss */
 #countdown_container {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
-  margin-left: 0.25em;
+  margin-left: 0.45em;
   font-size: 5.3125em;
 }
-/* line 505, ../sass/_main.scss */
+/* line 504, ../sass/_main.scss */
 #countdown_container span {
   text-align: center;
   display: inline-block;
   font-weight: 300px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 510, ../sass/_main.scss */
+/* line 509, ../sass/_main.scss */
 #countdown_container span img {
   vertical-align: middle;
   margin: 0 14px 0 6px;
 }
-/* line 514, ../sass/_main.scss */
+/* line 513, ../sass/_main.scss */
 #countdown_container span i {
   display: block;
   color: #1d3556;
@@ -7794,12 +7793,12 @@ footer a {
   text-align: left;
 }
 
-/* line 524, ../sass/_main.scss */
+/* line 523, ../sass/_main.scss */
 #days {
   margin-left: 7px;
 }
 
-/* line 528, ../sass/_main.scss */
+/* line 527, ../sass/_main.scss */
 .underlined {
   color: #fff;
   font-size: 0.25em;
@@ -7807,12 +7806,12 @@ footer a {
   padding: 5em 0;
 }
 
-/* line 535, ../sass/_main.scss */
+/* line 534, ../sass/_main.scss */
 .justified {
   text-align: justify;
 }
 
-/* line 539, ../sass/_main.scss */
+/* line 538, ../sass/_main.scss */
 .map_info {
   position: absolute;
   top: 10px;
