@@ -7274,43 +7274,44 @@ section {
 #Registration {
   background-color: #b7c9d3;
 }
-/* line 52, ../sass/_main.scss */
-#Registration.success .mackbook .screen {
+/* line 53, ../sass/_main.scss */
+#Registration.success .mackbook .top .screen {
   background-color: #6fc497;
 }
-/* line 54, ../sass/_main.scss */
-#Registration.success .mackbook .screen form {
+/* line 55, ../sass/_main.scss */
+#Registration.success .mackbook .top .screen form {
   display: none;
 }
-/* line 57, ../sass/_main.scss */
-#Registration.success .mackbook .screen .success-msg {
+/* line 58, ../sass/_main.scss */
+#Registration.success .mackbook .top .screen .success-msg {
   display: block;
   text-align: center;
   margin-top: 100px;
 }
-/* line 61, ../sass/_main.scss */
-#Registration.success .mackbook .screen .success-msg .cup {
+/* line 62, ../sass/_main.scss */
+#Registration.success .mackbook .top .screen .success-msg .cup {
   background: url("../images/cup.png");
   height: 127px;
   display: inline-block;
   width: 132px;
   margin-right: -28px;
 }
-/* line 68, ../sass/_main.scss */
-#Registration.success .mackbook .screen .success-msg .good {
-  margin: 15px 0 0 0;
+/* line 69, ../sass/_main.scss */
+#Registration.success .mackbook .top .screen .success-msg .good {
+  margin: 15px 15px 0 15px;
   font-family: 'kelson_sans_ruregular';
   font-size: 18px;
   line-height: 14px;
   color: #fff;
 }
-/* line 75, ../sass/_main.scss */
-#Registration.success .mackbook .screen .success-msg .wait {
+/* line 76, ../sass/_main.scss */
+#Registration.success .mackbook .top .screen .success-msg .wait {
+  margin: 0 15px;
   font-family: 'kelson_sans_ruregular';
   font-size: 12px;
   color: #a7e8c5;
 }
-/* line 86, ../sass/_main.scss */
+/* line 89, ../sass/_main.scss */
 #Registration .mackbook {
   position: absolute;
   margin: auto;
@@ -7318,45 +7319,78 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 949px;
-  height: 503px;
-  background: url("../images/macbook.png");
+  width: 95%;
+  max-width: 949px;
+  max-height: 503px;
+  height: 77%;
 }
-/* line 96, ../sass/_main.scss */
-#Registration .mackbook .screen {
+/* line 101, ../sass/_main.scss */
+#Registration .mackbook .top {
+  z-index: 10;
+  width: 72.18%;
+  height: 90.06%;
+  background-color: #474e5d;
+  margin: auto;
+  position: relative;
+  -webkit-border-radius: 24px 24px 0 0;
+  -moz-border-radius: 24px 24px 0 0;
+  -ms-border-radius: 24px 24px 0 0;
+  -o-border-radius: 24px 24px 0 0;
+  border-radius: 24px 24px 0 0;
+}
+/* line 109, ../sass/_main.scss */
+#Registration .mackbook .top .camera {
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  border-radius: 11px;
+  width: 11px;
+  height: 11px;
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  top: 23px;
-  width: 640px;
-  height: 407px;
+  top: 1.3%;
+  background-color: #a5adbd;
+}
+/* line 120, ../sass/_main.scss */
+#Registration .mackbook .top .screen {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 93.28%;
+  height: 89.85%;
   background-color: #f77f82;
 }
-/* line 105, ../sass/_main.scss */
-#Registration .mackbook .screen .success-msg {
+/* line 129, ../sass/_main.scss */
+#Registration .mackbook .top .screen .success-msg {
   display: none;
 }
-/* line 109, ../sass/_main.scss */
-#Registration .mackbook .screen form {
+/* line 133, ../sass/_main.scss */
+#Registration .mackbook .top .screen form {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
-  width: 230px;
+  max-width: 230px;
+  width: 90%;
   height: 227px;
 }
-/* line 115, ../sass/_main.scss */
-#Registration .mackbook .screen form input {
+/* line 140, ../sass/_main.scss */
+#Registration .mackbook .top .screen form input {
   margin-bottom: 9px;
   height: 27px;
   background-color: #fcddde;
   color: #1d3556;
 }
-/* line 121, ../sass/_main.scss */
-#Registration .mackbook .screen form select {
+/* line 146, ../sass/_main.scss */
+#Registration .mackbook .top .screen form select {
   font-size: 15px;
   border: 1px solid lightblue;
   border-radius: 0;
@@ -7371,8 +7405,8 @@ section {
   background-size: 18px 18px;
   margin: 0 0 61px 0;
 }
-/* line 136, ../sass/_main.scss */
-#Registration .mackbook .screen form .btn-submit {
+/* line 161, ../sass/_main.scss */
+#Registration .mackbook .top .screen form .btn-submit {
   width: 100%;
   margin: 0;
   height: 27px;
@@ -7385,19 +7419,104 @@ section {
   letter-spacing: 1px;
   line-height: 21px;
 }
-/* line 148, ../sass/_main.scss */
-#Registration .mackbook .screen form .btn-submit:active {
+/* line 173, ../sass/_main.scss */
+#Registration .mackbook .top .screen form .btn-submit:active {
   margin-top: 1px;
 }
+/* line 180, ../sass/_main.scss */
+#Registration .mackbook .bottom {
+  z-index: 10;
+  height: 8.15%;
+  width: 90.83%;
+  background-color: #e8ebf0;
+  margin: auto;
+  position: relative;
+  -webkit-border-radius: 0 0 40px 40px;
+  -moz-border-radius: 0 0 40px 40px;
+  -ms-border-radius: 0 0 40px 40px;
+  -o-border-radius: 0 0 40px 40px;
+  border-radius: 0 0 40px 40px;
+}
+/* line 188, ../sass/_main.scss */
+#Registration .mackbook .bottom .opening {
+  width: 14%;
+  height: 30%;
+  margin: auto;
+  position: relative;
+  background-color: #d8dbe1;
+  -webkit-border-radius: 0 0 12px 12px;
+  -moz-border-radius: 0 0 12px 12px;
+  -ms-border-radius: 0 0 12px 12px;
+  -o-border-radius: 0 0 12px 12px;
+  border-radius: 0 0 12px 12px;
+}
+/* line 197, ../sass/_main.scss */
+#Registration .mackbook .shadow {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
 
-/* line 158, ../sass/_main.scss */
+@media all and (max-width: 1024px) {
+  /* line 210, ../sass/_main.scss */
+  #Registration .mackbook .top {
+    height: 99%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+  }
+  /* line 214, ../sass/_main.scss */
+  #Registration .mackbook .top .screen {
+    width: 92%;
+  }
+  /* line 218, ../sass/_main.scss */
+  #Registration .mackbook .bottom {
+    display: none;
+  }
+  /* line 221, ../sass/_main.scss */
+  #Registration .mackbook .shadow {
+    width: 80%;
+  }
+}
+@media all and (max-width: 600px) {
+  /* line 230, ../sass/_main.scss */
+  #Registration .mackbook .top {
+    width: 85%;
+    height: 99%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+  }
+  /* line 234, ../sass/_main.scss */
+  #Registration .mackbook .top .camera {
+    width: 10px;
+    height: 10px;
+    top: 1.6%;
+  }
+  /* line 239, ../sass/_main.scss */
+  #Registration .mackbook .top .screen {
+    width: 92%;
+  }
+  /* line 244, ../sass/_main.scss */
+  #Registration .mackbook .shadow {
+    width: 90%;
+  }
+}
+/* line 252, ../sass/_main.scss */
 #Map .map-slide-wrapper {
   position: relative;
   height: 100%;
   padding-bottom: 39px;
 }
 
-/* line 165, ../sass/_main.scss */
+/* line 259, ../sass/_main.scss */
 .logo-wrapper {
   position: absolute;
   top: 0;
@@ -7409,11 +7528,11 @@ section {
   height: 397px;
   padding-top: 20px;
 }
-/* line 172, ../sass/_main.scss */
+/* line 266, ../sass/_main.scss */
 .logo-wrapper .logo {
   position: absolute;
 }
-/* line 175, ../sass/_main.scss */
+/* line 269, ../sass/_main.scss */
 .logo-wrapper .logo-shadow {
   position: absolute;
   display: block;
@@ -7424,7 +7543,7 @@ section {
   background-image: url("../images/logo-shadow.png");
 }
 
-/* line 187, ../sass/_main.scss */
+/* line 281, ../sass/_main.scss */
 .about {
   padding-left: 2.375em;
   line-height: 1.5;
@@ -7432,7 +7551,7 @@ section {
   max-width: 540px;
 }
 
-/* line 194, ../sass/_main.scss */
+/* line 288, ../sass/_main.scss */
 .about-title {
   font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #ffffff;
@@ -7440,21 +7559,21 @@ section {
   font-weight: 100 !important;
 }
 
-/* line 201, ../sass/_main.scss */
+/* line 295, ../sass/_main.scss */
 .about-description {
   color: #62979b;
   font-size: 1.125em;
   font-weight: 500 !important;
 }
 
-/* line 207, ../sass/_main.scss */
+/* line 301, ../sass/_main.scss */
 .about-details {
   color: #62979b;
   font-size: 0.8125em;
   padding-bottom: 4.375em;
 }
 
-/* line 213, ../sass/_main.scss */
+/* line 307, ../sass/_main.scss */
 .floating-label {
   background-color: #1d3556;
   padding: 0.875em;
@@ -7464,7 +7583,7 @@ section {
   letter-spacing: 1px;
 }
 
-/* line 222, ../sass/_main.scss */
+/* line 316, ../sass/_main.scss */
 .nav_bars {
   position: absolute;
   bottom: 0;
@@ -7478,7 +7597,7 @@ section {
   vertical-align: middle;
   line-height: 48px;
 }
-/* line 232, ../sass/_main.scss */
+/* line 326, ../sass/_main.scss */
 .nav_bars a {
   color: #fff;
   font-size: 0.6875em;
@@ -7491,45 +7610,45 @@ section {
   width: 100%;
 }
 
-/* line 247, ../sass/_main.scss */
+/* line 341, ../sass/_main.scss */
 #second_nav_bar {
   background-position: 0 -48px;
 }
 
-/* line 251, ../sass/_main.scss */
+/* line 345, ../sass/_main.scss */
 #third_nav_bar {
   background-position: 0 -96px;
 }
 
-/* line 256, ../sass/_main.scss */
+/* line 350, ../sass/_main.scss */
 #fourth_nav_bar {
   height: 68px;
   background-position: 0 -144px;
   line-height: 88px;
   bottom: 39px;
 }
-/* line 261, ../sass/_main.scss */
+/* line 355, ../sass/_main.scss */
 #fourth_nav_bar a {
   color: #000;
 }
 
-/* line 266, ../sass/_main.scss */
+/* line 360, ../sass/_main.scss */
 #map_title {
   position: absolute;
   right: 0px;
   z-index: 9999;
 }
 
-/* line 272, ../sass/_main.scss */
+/* line 366, ../sass/_main.scss */
 #map {
   height: 100%;
 }
-/* line 274, ../sass/_main.scss */
+/* line 368, ../sass/_main.scss */
 #map img {
   max-width: none;
 }
 
-/* line 279, ../sass/_main.scss */
+/* line 373, ../sass/_main.scss */
 .bordered {
   display: block;
   position: absolute !important;
@@ -7539,23 +7658,23 @@ section {
   overflow: auto;
 }
 
-/* line 295, ../sass/_main.scss */
+/* line 389, ../sass/_main.scss */
 #bordered_left {
   left: -5px;
 }
 
-/* line 298, ../sass/_main.scss */
+/* line 392, ../sass/_main.scss */
 #bordered_right {
   right: -5px;
 }
 
-/* line 302, ../sass/_main.scss */
+/* line 396, ../sass/_main.scss */
 #map-data {
   background-color: #e5d196;
   padding: 0.625em;
   top: 3.75em;
 }
-/* line 303, ../sass/_main.scss */
+/* line 397, ../sass/_main.scss */
 #map-data div {
   padding: 1.8125em;
   text-align: center;
@@ -7564,28 +7683,28 @@ section {
   font-size: 1.125em;
   position: relative;
 }
-/* line 305, ../sass/_main.scss */
+/* line 399, ../sass/_main.scss */
 #map-data div p a {
   font-weight: bold;
   color: #1d3556;
 }
-/* line 310, ../sass/_main.scss */
+/* line 404, ../sass/_main.scss */
 #map-data div #phone {
   color: #fff;
   font-weight: 100 !important;
   font-size: 2.5em;
   line-height: 1.5;
 }
-/* line 317, ../sass/_main.scss */
+/* line 411, ../sass/_main.scss */
 #map-data div #address {
   font-size: 0.75em;
 }
-/* line 336, ../sass/_main.scss */
+/* line 430, ../sass/_main.scss */
 #map-data p {
   margin: 0;
 }
 
-/* line 341, ../sass/_main.scss */
+/* line 435, ../sass/_main.scss */
 footer {
   background-color: #ebe8b4;
   height: 39px;
@@ -7593,7 +7712,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* line 348, ../sass/_main.scss */
+/* line 442, ../sass/_main.scss */
 footer p {
   line-height: 39px;
   padding-left: 0.875em;
@@ -7601,16 +7720,16 @@ footer p {
   margin: 0;
   font-weight: 500 !important;
 }
-/* line 354, ../sass/_main.scss */
+/* line 448, ../sass/_main.scss */
 footer p span {
   font-weight: 300 !important;
 }
-/* line 358, ../sass/_main.scss */
+/* line 452, ../sass/_main.scss */
 footer a {
   float: right;
 }
 
-/* line 365, ../sass/_main.scss */
+/* line 459, ../sass/_main.scss */
 .announcement_title {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
@@ -7621,7 +7740,7 @@ footer a {
   margin-bottom: 5px;
 }
 
-/* line 375, ../sass/_main.scss */
+/* line 469, ../sass/_main.scss */
 #time_left_label {
   font-size: 1.5em;
   color: #c02f34;
@@ -7631,13 +7750,13 @@ footer a {
   margin-bottom: -6px;
 }
 
-/* line 384, ../sass/_main.scss */
+/* line 478, ../sass/_main.scss */
 .blue_text {
   color: #1d3556;
   font-size: 0.9375em;
 }
 
-/* line 391, ../sass/_main.scss */
+/* line 485, ../sass/_main.scss */
 #announcement_highlight {
   color: #fff;
   font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -7647,26 +7766,26 @@ footer a {
   margin: 0;
 }
 
-/* line 405, ../sass/_main.scss */
+/* line 499, ../sass/_main.scss */
 #countdown_container {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
   margin-left: 0.25em;
   font-size: 5.3125em;
 }
-/* line 411, ../sass/_main.scss */
+/* line 505, ../sass/_main.scss */
 #countdown_container span {
   text-align: center;
   display: inline-block;
   font-weight: 300px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 416, ../sass/_main.scss */
+/* line 510, ../sass/_main.scss */
 #countdown_container span img {
   vertical-align: middle;
   margin: 0 14px 0 6px;
 }
-/* line 420, ../sass/_main.scss */
+/* line 514, ../sass/_main.scss */
 #countdown_container span i {
   display: block;
   color: #1d3556;
@@ -7675,12 +7794,12 @@ footer a {
   text-align: left;
 }
 
-/* line 430, ../sass/_main.scss */
+/* line 524, ../sass/_main.scss */
 #days {
   margin-left: 7px;
 }
 
-/* line 434, ../sass/_main.scss */
+/* line 528, ../sass/_main.scss */
 .underlined {
   color: #fff;
   font-size: 0.25em;
@@ -7688,12 +7807,12 @@ footer a {
   padding: 5em 0;
 }
 
-/* line 441, ../sass/_main.scss */
+/* line 535, ../sass/_main.scss */
 .justified {
   text-align: justify;
 }
 
-/* line 445, ../sass/_main.scss */
+/* line 539, ../sass/_main.scss */
 .map_info {
   position: absolute;
   top: 10px;
