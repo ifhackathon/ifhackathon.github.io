@@ -6,7 +6,7 @@ $(document).ready(function(){
   var days, hours, minutes, seconds;
 
   // get tag element
-  var countdown = $('#countdown_container');
+  var countdown = $('.countdown_container');
   // update the tag with id "countdown" every 1 second
   setInterval(function () {
 
@@ -24,23 +24,16 @@ $(document).ready(function(){
       minutes = parseInt(seconds_left / 60);
       seconds = parseInt(seconds_left % 60);
 
-      if (hours < 10) {
-        zeroHours = '0'
-      } else {
-        zeroHours = ''
-      };
+      var addZerro = function(time) {
+        if (time < 10) {
+          return '0';
+        }
+        return '';
+      }
 
-      if (minutes < 10) {
-        zeroMinutes = '0'
-      } else {
-        zeroMinutes = ''
-      };
-
-      if (seconds < 10) {
-        zeroSeconds = '0'
-      } else {
-        zeroSeconds = ''
-      };
+      zeroHours = addZerro(hours);
+      zeroMinutes = addZerro(minutes);
+      zeroSeconds = addZerro(seconds);
 
       // format countdown string + set tag value
       var text = "<span>" + days + "<img src='images/colon.png'/><i id='days'>днів</i></span><span>" + zeroHours + hours + "<img src='images/colon.png'/><i>годин</i></span><span>" + zeroMinutes+minutes + "<img src='images/colon.png'/><i>хвилин</i></span><span>" + zeroSeconds+seconds + "<i>секунд</i></span>";
