@@ -6,7 +6,7 @@ $(document).ready(function(){
   var days, hours, minutes, seconds;
 
   // get tag element
-  var countdown = $('.countdown_container');
+  var countdown = $('#countdown_container');
   // update the tag with id "countdown" every 1 second
   setInterval(function () {
 
