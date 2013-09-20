@@ -19,11 +19,10 @@ html, body {
   font-weight: 300 !important;
   letter-spacing: 1px;
   text-transform: uppercase;
-  width:68px;
-  height:11px;
   position: absolute;
   top:0;
   right:0;
+  z-index: 10;
 }
 
 .nav {
@@ -41,6 +40,8 @@ html, body {
   color: #fff;
   font-size: emCalc(11);
   font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 1.1px;
 }
 
@@ -161,9 +162,34 @@ html, body {
     width:473px;
     margin: 0 auto;
   }
+  #countdown_container {
+  font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
+  color: #fff;
+  font-size: emCalc(85);
+  // text-align: center;
+    span {
+      text-align: center;
+      display: inline-block;
+      -webkit-font-smoothing: antialiased;
+      img {
+
+        margin: 0 14px 0 6px;
+      }
+      i {
+        display: block;
+        color: #1d3556;
+        font-family: 'Kelson Sans',"Helvetica Neue", "Helvetica",Arial,sans-serif;
+        font-size: 0.2em;
+        text-align: left;
+      }
+    }
+  }
 }
 
 .slide3 {
+  .nav {
+    background-position: 0 -96px;
+  }
   background-color: #b7c9d3;
   .mackbook{
     position: absolute;
@@ -237,8 +263,94 @@ html, body {
   }
 }
 
+.slide4 {
+  position:relative;
+  .nav {
+    background-position: 0 -144px;
+    height: 68px;
+    color: #000;
+    line-height: 88px;
+    bottom: 39px;
+  }
+  #map {
+    height:100%;
+    z-index: 1;
+  }
+  .map-data {
+    z-index: 10;
+    width:397px;
+    height:185px;
+    padding:10px;
+    background: #e5d196;
+    position: absolute;
+    right: 6%;
+    top:60px;
+    span {
+      display: block;
+      width:331px;
+      height:119px;
+      padding:32px;
+      border:1px solid #1d3556;
+      text-align: center;
+      a {
+        color: #1d3556;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      p {
+        margin:0;
+        line-height: 1.6em;
+      }
+      &:before {
+        content:'';
+        left: 6px;
+        width:17px;
+        height:29px;
+        display:block;
+        top: 50%;
+        margin-top: -15px;
+        position:absolute;
+        background: url('../images/map_ellipse_left.png');
+      }
+      &:after {
+        content:'';
+        width:17px;
+        height:29px;
+        display:block;
+        top: 50%;
+        margin-top: -15px;
+        position:absolute;
+        right: 6px;
+        background: url('../images/map_ellipse_right.png');
+      }
+      .phone {
+        font-family: "kelson_sans_rulight","Helvetica Neue","Helvetica",Arial,sans-serif;
+        font-size: 45px;
+        color:#fff;
+      }
+      .address {
+        font-size:13.5px;
+      }
+    }
+  }
+}
 
 footer {
   background-color: #ebe8b4;
   height: 39px;
+  position:absolute;
+  z-index: 10;
+  width: 100%;
+  bottom: 0;
+  p {
+    margin:0;
+    font-size:11px;
+    line-height: 39px;
+    padding-left: 0.875em;
+  }
+  a {
+    position:absolute;
+    right:0;
+  }
 }
