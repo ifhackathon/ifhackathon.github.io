@@ -65,7 +65,7 @@ html, body {
 
 .slide1 {
   background-color: #c9e7e9;
-  padding: 2% 0 0 2%;
+  min-height: 665px;
   h1 {
     margin:0;
     text-indent: -99999px;
@@ -88,6 +88,7 @@ html, body {
   }
   .text-container {
     width: 487px;
+    margin: 2% 0 0 2%;
     // position:absolute;
     // top:0;
     // left:0;
@@ -120,6 +121,7 @@ html, body {
 
 .slide2 {
   background: url("../images/pattern.png");
+  min-height: 700px;
   .main-text {
     padding-top: 29px;
   }
@@ -395,7 +397,7 @@ html, body {
 }
 
 @media all and (max-width: 1024px) {
-  .slide3 { 
+  .slide3 {
     .mackbook{
       .top{
         // width: 85%;
@@ -415,7 +417,7 @@ html, body {
   }
 }
 @media all and (max-width: 600px) {
-  .slide3 { 
+  .slide3 {
     .mackbook{
       .top{
         width: 85%;
@@ -447,7 +449,7 @@ html, body {
   .nav {
     background-position: 0 -144px;
     height: 68px;
-    color: #000;
+    color: #1d3556;
     line-height: 88px;
     bottom: 39px;
   }
@@ -522,7 +524,10 @@ footer {
   z-index: 10;
   width: 100%;
   bottom: 0;
+  color: #1d3556;
+  font-family: $regular-font-family;
   p {
+    // letter-spacing: 1px;
     margin:0;
     font-size:11px;
     line-height: 39px;
