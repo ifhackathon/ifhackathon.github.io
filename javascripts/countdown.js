@@ -8,8 +8,8 @@ $(document).ready(function(){
   // get tag element
   var countdown = $('#countdown_container');
   // update the tag with id "countdown" every 1 second
-  // setInterval(function () {
-(function () {
+  setInterval(function () {
+
       // find the amount of "seconds" between now and target
       var current_date = new Date().getTime();
       var seconds_left = (target_date - current_date) / 1000;
@@ -36,9 +36,10 @@ $(document).ready(function(){
       zeroSeconds = addZerro(seconds);
 
       // format countdown string + set tag value
-      var text = "<span>" + days + "<img src='images/colon.png'/><i id='days'>днів</i></span><span>" + zeroHours + hours + "<img src='images/colon.png'/><i>годин</i></span><span>" + zeroMinutes+minutes + "<img src='images/colon.png'/><i>хвилин</i></span><span>" + zeroSeconds+seconds + "<i>секунд</i></span>";
+      var text = '<div class="days">'+days+'</div><div class="hours colons">'+ zeroHours + hours + '</div><div class="minutes colons">'+ zeroMinutes+minutes +'</div><div class="seconds colons">'+ zeroSeconds+seconds + '</div>';
+
       countdown.html(text)
-})()
-  // }, 1000);
+
+  }, 1000);
   // $('#countdown_container').html()
 })
