@@ -5,6 +5,7 @@ $('#registration').on('submit', function(event){
         url    = $(this).attr('action'),
         jqxhr = $.post(url, values, function(){}, 'text');
 
+    $('.btn-submit').prop('disabled','disabled').addClass('loading');
    
     jqxhr.always(function(jqXHR, textStatus, errorThrown){
       $('.slide3').addClass('success');
