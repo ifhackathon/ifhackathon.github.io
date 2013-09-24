@@ -412,7 +412,29 @@ table {
   border-spacing: 0;
 }
 
-/* line 1, ../sass/_main2.scss */
+/* line 3, ../sass/_main2.scss */
+::-webkit-input-placeholder {
+  color: #8892a8;
+}
+
+/* line 7, ../sass/_main2.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #8892a8;
+}
+
+/* line 11, ../sass/_main2.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #8892a8;
+}
+
+/* line 15, ../sass/_main2.scss */
+:-ms-input-placeholder {
+  color: #8892a8;
+}
+
+/* line 19, ../sass/_main2.scss */
 html, body {
   font-family: "kelson_sans_ruregular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   margin: 0;
@@ -422,14 +444,14 @@ html, body {
   min-height: 600px;
 }
 
-/* line 9, ../sass/_main2.scss */
+/* line 27, ../sass/_main2.scss */
 .slides {
   position: relative;
   overflow: hidden;
   height: 100%;
 }
 
-/* line 14, ../sass/_main2.scss */
+/* line 32, ../sass/_main2.scss */
 .label {
   background-color: #1d3556;
   padding: 0.875em;
@@ -444,7 +466,7 @@ html, body {
   z-index: 10;
 }
 
-/* line 28, ../sass/_main2.scss */
+/* line 46, ../sass/_main2.scss */
 .nav {
   position: absolute;
   bottom: 0;
@@ -465,11 +487,12 @@ html, body {
   letter-spacing: 1.1px;
 }
 
-/* line 48, ../sass/_main2.scss */
+/* line 66, ../sass/_main2.scss */
 .slide1 {
   background-color: #c9e7e9;
+  padding: 2% 0 0 2%;
 }
-/* line 50, ../sass/_main2.scss */
+/* line 69, ../sass/_main2.scss */
 .slide1 h1 {
   margin: 0;
   text-indent: -99999px;
@@ -477,28 +500,27 @@ html, body {
   width: 369px;
   background-image: url("../images/slide1/title.png");
 }
-/* line 57, ../sass/_main2.scss */
+/* line 76, ../sass/_main2.scss */
 .slide1 p {
   text-indent: -99999px;
 }
-/* line 59, ../sass/_main2.scss */
+/* line 78, ../sass/_main2.scss */
 .slide1 p.first-line {
   height: 36px;
   width: 371px;
   background-image: url("../images/slide1/first-line.png");
 }
-/* line 64, ../sass/_main2.scss */
+/* line 83, ../sass/_main2.scss */
 .slide1 p.second-line {
   height: 44px;
   width: 372px;
   background-image: url("../images/slide1/second-line.png");
 }
-/* line 70, ../sass/_main2.scss */
+/* line 89, ../sass/_main2.scss */
 .slide1 .text-container {
   width: 487px;
-  margin: 2% 0 0 2%;
 }
-/* line 77, ../sass/_main2.scss */
+/* line 95, ../sass/_main2.scss */
 .slide1 .logo-wrapper {
   position: relative;
   height: 397px;
@@ -506,7 +528,7 @@ html, body {
   display: block;
   margin: auto;
 }
-/* line 83, ../sass/_main2.scss */
+/* line 101, ../sass/_main2.scss */
 .slide1 .logo-wrapper span {
   background-image: url("../images/logo-shadow.png");
   display: block;
@@ -517,7 +539,7 @@ html, body {
   top: 32px;
   z-index: 10;
 }
-/* line 93, ../sass/_main2.scss */
+/* line 111, ../sass/_main2.scss */
 .slide1 .logo-wrapper img {
   height: 397px;
   width: 375px;
@@ -525,15 +547,15 @@ html, body {
   z-index: 100;
 }
 
-/* line 103, ../sass/_main2.scss */
+/* line 121, ../sass/_main2.scss */
 .slide2 {
   background: url("../images/pattern.png");
 }
-/* line 105, ../sass/_main2.scss */
+/* line 123, ../sass/_main2.scss */
 .slide2 .main-text {
   padding-top: 29px;
 }
-/* line 108, ../sass/_main2.scss */
+/* line 126, ../sass/_main2.scss */
 .slide2 h3 {
   text-indent: -99999px;
   margin: 0;
@@ -541,84 +563,84 @@ html, body {
   height: 68px;
   background: url("../images/slide2/title.png");
 }
-/* line 115, ../sass/_main2.scss */
+/* line 133, ../sass/_main2.scss */
 .slide2 .nav {
   background-position: 0 -48px;
 }
-/* line 118, ../sass/_main2.scss */
+/* line 136, ../sass/_main2.scss */
 .slide2 p {
   text-indent: -99999px;
 }
-/* line 120, ../sass/_main2.scss */
+/* line 138, ../sass/_main2.scss */
 .slide2 p.first-line {
   width: 471px;
   height: 94px;
   background: url("../images/slide2/first-line.png");
 }
-/* line 125, ../sass/_main2.scss */
+/* line 143, ../sass/_main2.scss */
 .slide2 p.second-line {
   width: 471px;
   height: 20px;
   background: url("../images/slide2/second-line.png");
 }
-/* line 130, ../sass/_main2.scss */
+/* line 148, ../sass/_main2.scss */
 .slide2 p.third-line {
   width: 473px;
   height: 27px;
   background: url("../images/slide2/third-line.png");
 }
-/* line 135, ../sass/_main2.scss */
+/* line 153, ../sass/_main2.scss */
 .slide2 p.highlight {
   width: 471px;
   height: 37px;
   background: url("../images/slide2/highlight.png");
 }
-/* line 140, ../sass/_main2.scss */
+/* line 158, ../sass/_main2.scss */
 .slide2 p.fifth-line {
   width: 471px;
   height: 32px;
   background: url("../images/slide2/fifth-line.png");
 }
-/* line 145, ../sass/_main2.scss */
+/* line 163, ../sass/_main2.scss */
 .slide2 p.time-left-label {
   width: 464px;
   height: 29px;
   background: url("../images/slide2/time-left-label.png");
 }
-/* line 151, ../sass/_main2.scss */
+/* line 169, ../sass/_main2.scss */
 .slide2 hr {
   border: none;
   width: 465px;
   height: 27px;
   background: url("../images/2013label.png");
 }
-/* line 156, ../sass/_main2.scss */
+/* line 174, ../sass/_main2.scss */
 .slide2 hr.clock {
   background: url("../images/clock.png");
   height: 29px;
 }
-/* line 161, ../sass/_main2.scss */
+/* line 179, ../sass/_main2.scss */
 .slide2 .main-text {
   width: 473px;
   margin: 0 auto;
 }
-/* line 165, ../sass/_main2.scss */
+/* line 183, ../sass/_main2.scss */
 .slide2 #countdown_container {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
   font-size: 5.3125em;
 }
-/* line 170, ../sass/_main2.scss */
+/* line 188, ../sass/_main2.scss */
 .slide2 #countdown_container span {
   text-align: center;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
 }
-/* line 174, ../sass/_main2.scss */
+/* line 192, ../sass/_main2.scss */
 .slide2 #countdown_container span img {
   margin: 0 14px 0 6px;
 }
-/* line 178, ../sass/_main2.scss */
+/* line 196, ../sass/_main2.scss */
 .slide2 #countdown_container span i {
   display: block;
   color: #1d3556;
@@ -627,15 +649,52 @@ html, body {
   text-align: left;
 }
 
-/* line 189, ../sass/_main2.scss */
+/* line 207, ../sass/_main2.scss */
 .slide3 {
   background-color: #b7c9d3;
 }
-/* line 190, ../sass/_main2.scss */
+/* line 208, ../sass/_main2.scss */
 .slide3 .nav {
   background-position: 0 -96px;
 }
-/* line 194, ../sass/_main2.scss */
+/* line 216, ../sass/_main2.scss */
+.slide3.success .mackbook .top .screen {
+  background-color: #6fc497;
+}
+/* line 218, ../sass/_main2.scss */
+.slide3.success .mackbook .top .screen form {
+  display: none;
+}
+/* line 221, ../sass/_main2.scss */
+.slide3.success .mackbook .top .screen .success-msg {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+/* line 225, ../sass/_main2.scss */
+.slide3.success .mackbook .top .screen .success-msg .cup {
+  background: url("../images/cup.png");
+  height: 127px;
+  display: inline-block;
+  width: 132px;
+  margin-right: -18px;
+}
+/* line 232, ../sass/_main2.scss */
+.slide3.success .mackbook .top .screen .success-msg .good {
+  margin: 13px 15px 2px 15px;
+  font-family: 'kelson_sans_ruregular';
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+/* line 239, ../sass/_main2.scss */
+.slide3.success .mackbook .top .screen .success-msg .wait {
+  margin: 0 15px;
+  font-family: 'kelson_sans_ruregular';
+  font-size: 12px;
+  color: #a7e8c5;
+}
+/* line 252, ../sass/_main2.scss */
 .slide3 .mackbook {
   position: absolute;
   margin: auto;
@@ -643,51 +702,103 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 949px;
-  height: 503px;
-  background: url("../images/macbook.png");
+  width: 95%;
+  max-width: 949px;
+  max-height: 503px;
+  height: 77%;
 }
-/* line 204, ../sass/_main2.scss */
-.slide3 .mackbook .screen {
+/* line 263, ../sass/_main2.scss */
+.slide3 .mackbook .top {
+  z-index: 10;
+  width: 72.18%;
+  height: 90.06%;
+  background-color: #474e5d;
+  margin: auto;
+  position: relative;
+  -webkit-border-radius: 24px 24px 0 0;
+  -moz-border-radius: 24px 24px 0 0;
+  -ms-border-radius: 24px 24px 0 0;
+  -o-border-radius: 24px 24px 0 0;
+  border-radius: 24px 24px 0 0;
+}
+/* line 271, ../sass/_main2.scss */
+.slide3 .mackbook .top .camera {
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  border-radius: 11px;
+  width: 11px;
+  height: 11px;
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  top: 23px;
-  width: 640px;
-  height: 407px;
+  top: 1.3%;
+  background-color: #a5adbd;
+}
+/* line 282, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 93.28%;
+  height: 89.85%;
   background-color: #f77f82;
 }
-/* line 213, ../sass/_main2.scss */
-.slide3 .mackbook .screen .success-msg {
+/* line 291, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen .success-msg {
   display: none;
 }
-/* line 217, ../sass/_main2.scss */
-.slide3 .mackbook .screen form {
+/* line 295, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen form {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
-  width: 230px;
+  max-width: 230px;
+  width: 90%;
   height: 227px;
 }
-/* line 223, ../sass/_main2.scss */
-.slide3 .mackbook .screen form input {
-  margin-bottom: 9px;
-  height: 27px;
+/* line 303, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen form input[type="text"], .slide3 .mackbook .top .screen form input[type="password"], .slide3 .mackbook .top .screen form input[type="date"], .slide3 .mackbook .top .screen form input[type="datetime"], .slide3 .mackbook .top .screen form input[type="datetime-local"], .slide3 .mackbook .top .screen form input[type="month"], .slide3 .mackbook .top .screen form input[type="week"], .slide3 .mackbook .top .screen form input[type="email"], .slide3 .mackbook .top .screen form input[type="number"], .slide3 .mackbook .top .screen form input[type="search"], .slide3 .mackbook .top .screen form input[type="tel"], .slide3 .mackbook .top .screen form input[type="time"], .slide3 .mackbook .top .screen form input[type="url"], .slide3 .mackbook .top .screen form textarea {
   background-color: #fcddde;
+  font-family: inherit;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: #1d3556;
-  border: 0;
+  display: block;
+  font-size: 0.875em;
+  margin: 0 0 9px 0;
+  padding: 0.5em;
+  height: 27px;
   width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
 }
-/* line 231, ../sass/_main2.scss */
-.slide3 .mackbook .screen form select {
+/* line 323, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen form input[type="text"]:focus, .slide3 .mackbook .top .screen form input[type="password"]:focus, .slide3 .mackbook .top .screen form input[type="date"]:focus, .slide3 .mackbook .top .screen form input[type="datetime"]:focus, .slide3 .mackbook .top .screen form input[type="datetime-local"]:focus, .slide3 .mackbook .top .screen form input[type="month"]:focus, .slide3 .mackbook .top .screen form input[type="week"]:focus, .slide3 .mackbook .top .screen form input[type="email"]:focus, .slide3 .mackbook .top .screen form input[type="number"]:focus, .slide3 .mackbook .top .screen form input[type="search"]:focus, .slide3 .mackbook .top .screen form input[type="tel"]:focus, .slide3 .mackbook .top .screen form input[type="time"]:focus, .slide3 .mackbook .top .screen form input[type="url"]:focus, .slide3 .mackbook .top .screen form textarea:focus {
+  background: #fafafa;
+  border-color: #999999;
+  outline: none;
+}
+/* line 329, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen form select {
   font-size: 15px;
-  border: 0;
+  border: 1px solid lightblue;
+  border-radius: 0;
   color: #1d3556;
-  padding: 4px;
+  padding: 4px 4px 4px 7px;
   width: 100%;
   -webkit-appearance: none;
   background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>") right no-repeat;
@@ -697,11 +808,11 @@ html, body {
   background-size: 18px 18px;
   margin: 0 0 61px 0;
 }
-/* line 245, ../sass/_main2.scss */
-.slide3 .mackbook .screen form .btn-submit {
+/* line 344, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen form .btn-submit {
   width: 100%;
   margin: 0;
-  height: 27px;
+  height: 31px;
   background-color: #e84246;
   color: white;
   border: none;
@@ -711,16 +822,101 @@ html, body {
   letter-spacing: 1px;
   line-height: 21px;
 }
-/* line 257, ../sass/_main2.scss */
-.slide3 .mackbook .screen form .btn-submit:active {
+/* line 356, ../sass/_main2.scss */
+.slide3 .mackbook .top .screen form .btn-submit:active {
   margin-top: 1px;
 }
+/* line 363, ../sass/_main2.scss */
+.slide3 .mackbook .bottom {
+  z-index: 10;
+  height: 8.15%;
+  width: 90.83%;
+  background-color: #e8ebf0;
+  margin: auto;
+  position: relative;
+  -webkit-border-radius: 0 0 40px 40px;
+  -moz-border-radius: 0 0 40px 40px;
+  -ms-border-radius: 0 0 40px 40px;
+  -o-border-radius: 0 0 40px 40px;
+  border-radius: 0 0 40px 40px;
+}
+/* line 371, ../sass/_main2.scss */
+.slide3 .mackbook .bottom .opening {
+  width: 14%;
+  height: 30%;
+  margin: auto;
+  position: relative;
+  background-color: #d8dbe1;
+  -webkit-border-radius: 0 0 12px 12px;
+  -moz-border-radius: 0 0 12px 12px;
+  -ms-border-radius: 0 0 12px 12px;
+  -o-border-radius: 0 0 12px 12px;
+  border-radius: 0 0 12px 12px;
+}
+/* line 380, ../sass/_main2.scss */
+.slide3 .mackbook .shadow {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
 
-/* line 266, ../sass/_main2.scss */
+@media all and (max-width: 1024px) {
+  /* line 393, ../sass/_main2.scss */
+  .slide3 .mackbook .top {
+    height: 99%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+  }
+  /* line 397, ../sass/_main2.scss */
+  .slide3 .mackbook .top .screen {
+    width: 92%;
+  }
+  /* line 401, ../sass/_main2.scss */
+  .slide3 .mackbook .bottom {
+    display: none;
+  }
+  /* line 404, ../sass/_main2.scss */
+  .slide3 .mackbook .shadow {
+    width: 80%;
+  }
+}
+@media all and (max-width: 600px) {
+  /* line 413, ../sass/_main2.scss */
+  .slide3 .mackbook .top {
+    width: 85%;
+    height: 99%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+  }
+  /* line 417, ../sass/_main2.scss */
+  .slide3 .mackbook .top .camera {
+    width: 10px;
+    height: 10px;
+    top: 1.6%;
+  }
+  /* line 422, ../sass/_main2.scss */
+  .slide3 .mackbook .top .screen {
+    width: 92%;
+  }
+  /* line 427, ../sass/_main2.scss */
+  .slide3 .mackbook .shadow {
+    width: 90%;
+  }
+}
+/* line 438, ../sass/_main2.scss */
 .slide4 {
   position: relative;
 }
-/* line 268, ../sass/_main2.scss */
+/* line 440, ../sass/_main2.scss */
 .slide4 .nav {
   background-position: 0 -144px;
   height: 68px;
@@ -728,12 +924,12 @@ html, body {
   line-height: 88px;
   bottom: 39px;
 }
-/* line 275, ../sass/_main2.scss */
+/* line 447, ../sass/_main2.scss */
 .slide4 #map {
   height: 100%;
   z-index: 1;
 }
-/* line 279, ../sass/_main2.scss */
+/* line 451, ../sass/_main2.scss */
 .slide4 .map-data {
   z-index: 10;
   width: 397px;
@@ -744,7 +940,7 @@ html, body {
   right: 6%;
   top: 60px;
 }
-/* line 288, ../sass/_main2.scss */
+/* line 460, ../sass/_main2.scss */
 .slide4 .map-data span {
   display: block;
   width: 331px;
@@ -753,19 +949,19 @@ html, body {
   border: 1px solid #1d3556;
   text-align: center;
 }
-/* line 295, ../sass/_main2.scss */
+/* line 467, ../sass/_main2.scss */
 .slide4 .map-data span a {
   color: #1d3556;
   font-weight: bold;
   text-decoration: none;
   font-size: 18px;
 }
-/* line 301, ../sass/_main2.scss */
+/* line 473, ../sass/_main2.scss */
 .slide4 .map-data span p {
   margin: 0;
   line-height: 1.6em;
 }
-/* line 305, ../sass/_main2.scss */
+/* line 477, ../sass/_main2.scss */
 .slide4 .map-data span:before {
   content: '';
   left: 6px;
@@ -777,7 +973,7 @@ html, body {
   position: absolute;
   background: url("../images/map_ellipse_left.png");
 }
-/* line 316, ../sass/_main2.scss */
+/* line 488, ../sass/_main2.scss */
 .slide4 .map-data span:after {
   content: '';
   width: 17px;
@@ -789,18 +985,18 @@ html, body {
   right: 6px;
   background: url("../images/map_ellipse_right.png");
 }
-/* line 327, ../sass/_main2.scss */
+/* line 499, ../sass/_main2.scss */
 .slide4 .map-data span .phone {
   font-family: "kelson_sans_rulight","Helvetica Neue","Helvetica",Arial,sans-serif;
   font-size: 45px;
   color: #fff;
 }
-/* line 332, ../sass/_main2.scss */
+/* line 504, ../sass/_main2.scss */
 .slide4 .map-data span .address {
   font-size: 13.5px;
 }
 
-/* line 339, ../sass/_main2.scss */
+/* line 511, ../sass/_main2.scss */
 footer {
   background-color: #ebe8b4;
   height: 39px;
@@ -809,14 +1005,14 @@ footer {
   width: 100%;
   bottom: 0;
 }
-/* line 346, ../sass/_main2.scss */
+/* line 518, ../sass/_main2.scss */
 footer p {
   margin: 0;
   font-size: 11px;
   line-height: 39px;
   padding-left: 0.875em;
 }
-/* line 352, ../sass/_main2.scss */
+/* line 524, ../sass/_main2.scss */
 footer a {
   position: absolute;
   right: 0;
