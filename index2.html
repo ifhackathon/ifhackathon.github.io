@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -18,15 +17,11 @@
     <h1>Всім привіт, раді анонсувати перший IF HAKATHON.</h1>
     <p class="first-line"> Наше місто не є великим ІТ центром і тематичні події відбуваються вкрай рідко,</p>
     <p class="second-line"> тому ми вирішили зібрати тусовку і гарно розважитись.</p>
-
   </div>
-
   <div class="logo-wrapper">
     <span></span>
     <img src="images/logo.png" alt="if hackathon">
   </div>
-
-
   <a class="nav" href="#">Вниз</a>
 </div>
 <div class="slides slide2">
@@ -41,14 +36,12 @@
     <p class="fifth-line">Чекаємо 27 вересня в офісі Webmil. Старт та ідеї в суботу о 12:00, презентація демо в неділю о 15:00.</p>
     <hr class="clock" />
     <p class="time-left-label">ДО ПОЧАТКУ ХАКАТОНУ ЗАЛИШИЛОСЬ</p>
-    <div class="countdown_container"></div>
+    <div id="countdown_container"></div>
   </div>
-
   <a class="nav" href="#">Вниз</a>
 </div>
 <div class="slides slide3">
   <div class="label">Реєстрація</div>
-
   <div class='mackbook'>
     <div class='top'>
       <div class="camera"></div>
@@ -75,20 +68,29 @@
       </div>
     </div>
   </div>
-
-  <a href="#">Вниз</a>
+  <a href="#" class="nav">Вниз</a>
 </div>
 <div class="slides slide4">
   <div class="label">Локація</div>
-
-  <a href="#">Вгору</a>
+    <div id="map"></div>
+    <div class="map-data">
+      <span class="contacts">
+        <a href="mailto:ifhackathon@webmil.eu">IFHACKATHON@WEBMIL.EU</a>
+        <p class="phone">+380 91 934 84 73</p>
+        <p class="address">
+          ВУЛ. СІЧОВИХ СТРІЛЬЦІВ, 34
+        </p>
+      </span>
+    </div>
+  <a href="#" class="nav">Вгору</a>
+  <footer>
+    <a href="http://webmil.eu"><img src="images/footer_logo.jpg"></a>
+    <p>© IF HACKATHON 2013. <span>All RIGHTS RESERVED.</span></p>
+  </footer>
 </div>
-<footer>
-  <a href="http://webmil.eu"><img src="images/footer_logo.jpg"></a>
-  <p>© IF HACKATHON 2013. <span>All RIGHTS RESERVED.</span></p>
-</footer>
-
   <script src="javascripts/vendor/jquery.js"></script>
   <script src="javascripts/countdown.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+  <script src="javascripts/google_maps.js"></script>
 </body>
 </html>
