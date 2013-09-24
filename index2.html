@@ -11,7 +11,7 @@
   <script src="javascripts/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-<div class="slides slide1">
+<div class="slides slide1" data-slide="1">
   <div class="label">Про проект</div>
   <div class="text-container">
     <h1>Всім привіт, раді анонсувати перший IF HAKATHON.</h1>
@@ -22,9 +22,9 @@
     <span></span>
     <img src="images/logo.png" alt="if hackathon">
   </div>
-  <a class="nav" href="#">Вниз</a>
+  <a class="nav" href="#" data-slide="2">Вниз</a>
 </div>
-<div class="slides slide2">
+<div class="slides slide2" data-slide="2">
   <div class="label">Оголошення</div>
   <div class="main-text">
     <h3>IF HACKATHON</h3>
@@ -38,9 +38,9 @@
     <p class="time-left-label">ДО ПОЧАТКУ ХАКАТОНУ ЗАЛИШИЛОСЬ</p>
     <div id="countdown_container"></div>
   </div>
-  <a class="nav" href="#">Вниз</a>
+  <a class="nav" href="#" data-slide="3">Вниз</a>
 </div>
-<div class="slides slide3">
+<div class="slides slide3" data-slide="3">
   <div class="label">Реєстрація</div>
   <div class='mackbook'>
     <div class='top'>
@@ -68,9 +68,9 @@
       </div>
     </div>
   </div>
-  <a href="#" class="nav">Вниз</a>
+  <a href="#" class="nav" data-slide="4">Вниз</a>
 </div>
-<div class="slides slide4">
+<div class="slides slide4" data-slide="4">
   <div class="label">Локація</div>
     <div id="map"></div>
     <div class="map-data">
@@ -82,7 +82,7 @@
         </p>
       </span>
     </div>
-  <a href="#" class="nav">Вгору</a>
+  <a href="#" class="nav" data-slide="1">Вгору</a>
   <footer>
     <a href="http://webmil.eu"><img src="images/footer_logo.jpg"></a>
     <p>© IF HACKATHON 2013. <span>All RIGHTS RESERVED.</span></p>
@@ -92,5 +92,7 @@
   <script src="javascripts/countdown.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
   <script src="javascripts/google_maps.js"></script>
+  <script src="javascripts/jquery.easing.js"></script>
+  <script src="javascripts/smooth_scroll.js"></script>
 </body>
 </html>

@@ -1,7 +1,5 @@
 // $(document).ready(function(){
     var init = function(){
-        var centerLatLng = new google.maps.LatLng(48.917316, 24.727083);
-
         var myOptions = {
             zoom: 14,
             scrollwheel: false,
@@ -34,6 +32,11 @@
         var geocoder = new google.maps.Geocoder();
         geocoder.geocode( { 'address': 'Івано-Франківськ, Січових Стрільців 34'}, function(results, status){
             if (status == google.maps.GeocoderStatus.OK){
+                if ($(window).width() < 650) {
+                    centerLatLng = results[0].geometry.location
+                } else{
+                    var centerLatLng = new google.maps.LatLng(48.917316, 24.727083)
+                }
                 map.setCenter(centerLatLng);
                 var conf ={
                     map: map,
