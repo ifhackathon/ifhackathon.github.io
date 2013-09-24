@@ -2,3 +2,9 @@
 .slide1 .logo-wrapper span, .label {
   display: none;
 }
+
+/* line 5, ../sass/resp.scss */
+.slide1 .text-container {
+  margin: 5px auto 0 auto;
+  width: 369px;
+}
