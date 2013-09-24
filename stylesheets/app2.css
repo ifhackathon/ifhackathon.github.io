@@ -920,7 +920,7 @@ html, body {
 .slide4 .nav {
   background-position: 0 -144px;
   height: 68px;
-  color: #000;
+  color: #1d3556;
   line-height: 88px;
   bottom: 39px;
 }
@@ -1004,15 +1004,17 @@ footer {
   z-index: 10;
   width: 100%;
   bottom: 0;
+  color: #1d3556;
+  font-family: "kelson_sans_ruregular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
-/* line 518, ../sass/_main2.scss */
+/* line 520, ../sass/_main2.scss */
 footer p {
   margin: 0;
   font-size: 11px;
   line-height: 39px;
   padding-left: 0.875em;
 }
-/* line 524, ../sass/_main2.scss */
+/* line 527, ../sass/_main2.scss */
 footer a {
   position: absolute;
   right: 0;
