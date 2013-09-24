@@ -999,15 +999,16 @@ html, body {
 /* line 508, ../sass/_main2.scss */
 .slide4 .map-data span .phone {
   font-family: "kelson_sans_rulight","Helvetica Neue","Helvetica",Arial,sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   color: #fff;
 }
 /* line 513, ../sass/_main2.scss */
 .slide4 .map-data span .address {
-  font-size: 13.5px;
+  color: #1d3556;
+  font-size: 15px;
 }
 
-/* line 520, ../sass/_main2.scss */
+/* line 521, ../sass/_main2.scss */
 footer {
   background-color: #ebe8b4;
   height: 39px;
@@ -1018,14 +1019,14 @@ footer {
   color: #1d3556;
   font-family: "kelson_sans_ruregular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
-/* line 529, ../sass/_main2.scss */
+/* line 530, ../sass/_main2.scss */
 footer p {
   margin: 0;
   font-size: 11px;
   line-height: 39px;
   padding-left: 0.875em;
 }
-/* line 536, ../sass/_main2.scss */
+/* line 537, ../sass/_main2.scss */
 footer a {
   position: absolute;
   right: 0;
