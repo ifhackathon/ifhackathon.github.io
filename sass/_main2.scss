@@ -65,6 +65,7 @@ html, body {
 
 .slide1 {
   background-color: #c9e7e9;
+  min-height: 665px;
   h1 {
     margin:0;
     text-indent: -99999px;
@@ -120,6 +121,7 @@ html, body {
 
 .slide2 {
   background: url("../images/pattern.png");
+  min-height: 700px;
   .main-text {
     padding-top: 29px;
   }
