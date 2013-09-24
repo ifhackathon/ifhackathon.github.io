@@ -468,9 +468,8 @@ html, body {
 /* line 48, ../sass/_main2.scss */
 .slide1 {
   background-color: #c9e7e9;
-  padding: 2% 0 0 2%;
 }
-/* line 51, ../sass/_main2.scss */
+/* line 50, ../sass/_main2.scss */
 .slide1 h1 {
   margin: 0;
   text-indent: -99999px;
@@ -478,25 +477,26 @@ html, body {
   width: 369px;
   background-image: url("../images/slide1/title.png");
 }
-/* line 58, ../sass/_main2.scss */
+/* line 57, ../sass/_main2.scss */
 .slide1 p {
   text-indent: -99999px;
 }
-/* line 60, ../sass/_main2.scss */
+/* line 59, ../sass/_main2.scss */
 .slide1 p.first-line {
   height: 36px;
   width: 371px;
   background-image: url("../images/slide1/first-line.png");
 }
-/* line 65, ../sass/_main2.scss */
+/* line 64, ../sass/_main2.scss */
 .slide1 p.second-line {
   height: 44px;
   width: 372px;
   background-image: url("../images/slide1/second-line.png");
 }
-/* line 71, ../sass/_main2.scss */
+/* line 70, ../sass/_main2.scss */
 .slide1 .text-container {
   width: 487px;
+  margin: 2% 0 0 2%;
 }
 /* line 77, ../sass/_main2.scss */
 .slide1 .logo-wrapper {
