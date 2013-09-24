@@ -43,6 +43,7 @@ html, body {
   z-index: 10;
 }
 
+
 .nav {
   position: absolute;
   bottom: 0;
@@ -189,7 +190,8 @@ html, body {
     div {
       display: inline-block;
       -webkit-font-smoothing: antialiased;
-      margin-left: 15px;
+      margin: -30px 0 0 15px;
+      width:117px;
     }
     div:after {
       display: block;
@@ -198,6 +200,7 @@ html, body {
       font-size: 0.2em;
       position:relative;
       top: -15px;
+
     }
     .colons:before {
       content: '';
@@ -205,23 +208,33 @@ html, body {
       width:9px;
       position:relative;
       bottom:15px;
-      right:25px;
+      right:35px;
       height:30px;
       display:inline-block;
     }
+    .days {
+      margin-left: 0;
+    }
     .days:after {
       content:'днів';
+      margin-left: 10px;
 
     }
     .hours:after {
       content:'годин';
+      margin-left: 12px;
     }
 
     .minutes:after {
       content:'хвилин';
+      margin-left: 6px;
+    }
+    .seconds {
+      width:76px;
     }
     .seconds:after {
       content:'секунд';
+      margin-left: 5px;
     }
   }
 }
