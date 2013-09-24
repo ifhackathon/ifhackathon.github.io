@@ -388,7 +388,7 @@ html, body {
 }
 
 @media all and (max-width: 1024px) {
-  .slide3 { 
+  .slide3 {
     .mackbook{
       .top{
         // width: 85%;
@@ -408,7 +408,7 @@ html, body {
   }
 }
 @media all and (max-width: 600px) {
-  .slide3 { 
+  .slide3 {
     .mackbook{
       .top{
         width: 85%;
@@ -440,7 +440,7 @@ html, body {
   .nav {
     background-position: 0 -144px;
     height: 68px;
-    color: #000;
+    color: #1d3556;
     line-height: 88px;
     bottom: 39px;
   }
@@ -515,7 +515,10 @@ footer {
   z-index: 10;
   width: 100%;
   bottom: 0;
+  color: #1d3556;
+  font-family: $regular-font-family;
   p {
+    // letter-spacing: 1px;
     margin:0;
     font-size:11px;
     line-height: 39px;
