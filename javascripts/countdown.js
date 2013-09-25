@@ -5,8 +5,18 @@
           date: new Date("Oct 02, 2013").getTime()
       }, options );
 
+
       var days, hours, minutes, seconds;
-      var that = $(this);
+      $(this).html($('<div>', {class: 'days', text: '00'}))
+        .append($('<div>', {class: 'hours colons', text: '00'}))
+        .append($('<div>', {class: 'minutes colons', text: '00'}))
+        .append($('<div>', {class: 'seconds colons', text: '00'}));
+
+        var $days = $('.days');
+        var $hours = $('.hours');
+        var $minutes = $('.minutes');
+        var $seconds = $('.seconds');
+
       setInterval(function () {
         var current_date = new Date().getTime();
         var seconds_left = (settings.date - current_date) / 1000;
@@ -26,10 +36,10 @@
           }
           return time;
         }
-        that.html($('<div>', {class: 'days', text: addZerro(days)}))
-          .append($('<div>', {class: 'hours colons', text: addZerro(hours)}))
-          .append($('<div>', {class: 'minutes colons', text: addZerro(minutes)}))
-          .append($('<div>', {class: 'seconds colons', text: addZerro(seconds)}));
+        $days.text(addZerro(days));
+        $hours.text(addZerro(hours));
+        $minutes.text(addZerro(minutes));
+        $seconds.text(addZerro(seconds));
       }, 1000);
     };
 }( jQuery ));
