@@ -1,4 +1,5 @@
-﻿@import "compass/css3/border-radius";
+﻿@charset "UTF-8";
+@import "compass/css3/border-radius";
 
 ::-webkit-input-placeholder {
    color: #8892a8;
@@ -34,7 +35,7 @@ html, body {
   padding: emCalc(14);
   color: #fff;
   font-size: emCalc(11);
-  font-weight: 300 !important;
+  font-family: $light-font-family;
   letter-spacing: 1px;
   text-transform: uppercase;
   position: absolute;
@@ -58,10 +59,14 @@ html, body {
   z-index: 1000;
   color: #fff;
   font-size: emCalc(11);
-  font-weight: 300;
+  font-family: $light-font-family;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 1.1px;
+  letter-spacing: 2.6px;
+    i {
+      letter-spacing: 0px;
+      font-style: normal;
+    }
 }
 
 .slide1 {
