@@ -43,6 +43,7 @@ html, body {
   z-index: 10;
 }
 
+
 .nav {
   position: absolute;
   bottom: 0;
@@ -185,11 +186,14 @@ html, body {
   #countdown_container {
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
+  width:472px;
   font-size: emCalc(85);
     div {
       display: inline-block;
       -webkit-font-smoothing: antialiased;
-      margin-left: 15px;
+      margin: -30px 0 0 15px;
+      width:117px;
+      position:relative;
     }
     div:after {
       display: block;
@@ -198,6 +202,7 @@ html, body {
       font-size: 0.2em;
       position:relative;
       top: -15px;
+
     }
     .colons:before {
       content: '';
@@ -205,23 +210,33 @@ html, body {
       width:9px;
       position:relative;
       bottom:15px;
-      right:25px;
+      right:35px;
       height:30px;
       display:inline-block;
     }
+    .days {
+      margin-left: 0;
+    }
     .days:after {
       content:'днів';
+      left: 10px;
 
     }
     .hours:after {
       content:'годин';
+      left: 12px;
     }
 
     .minutes:after {
       content:'хвилин';
+      left: 6px;
+    }
+    .seconds {
+      width:76px;
     }
     .seconds:after {
       content:'секунд';
+      left: 5px;
     }
   }
 }
