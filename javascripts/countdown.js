@@ -2,7 +2,7 @@
 
     $.fn.countdown = function( options ) {
       var settings = $.extend({
-          date: new Date("Oct 02, 2013").getTime()
+          date: new Date("Oct 26, 2013 12:00").getTime()
       }, options );
 
 

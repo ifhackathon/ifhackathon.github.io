@@ -1095,4 +1095,15 @@ footer p {
 footer a {
   position: absolute;
   right: 0;
+  height: 37px;
+  width: 47px;
+}
+/* line 603, ../sass/_main2.scss */
+footer .facebook {
+  display: block;
+  height: 39px;
+  width: 39px;
+  text-indent: -99999px;
+  background-image: url("../images/facebook-logo.png");
+  right: 47px;
 }
