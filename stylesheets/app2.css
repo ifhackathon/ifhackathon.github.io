@@ -1,4 +1,4 @@
-@charset "US-ASCII";
+@charset "UTF-8";
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -439,7 +439,7 @@ table {
 html, body {
   font-family: "kelson_sans_ruregular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   margin: 0;
-  min-width: 471px;
+  min-width: 472px;
   width: 100%;
   height: 100%;
   min-height: 600px;
@@ -502,8 +502,8 @@ html, body {
 .slide1 h1 {
   margin: 0;
   text-indent: -99999px;
-  height: 64px;
-  width: 369px;
+  height: 69px;
+  width: 372px;
   background-image: url("../images/slide1/title.png");
 }
 /* line 82, ../sass/_main2.scss */
@@ -518,8 +518,8 @@ html, body {
 }
 /* line 89, ../sass/_main2.scss */
 .slide1 p.second-line {
-  height: 44px;
-  width: 372px;
+  height: 47px;
+  width: 371px;
   background-image: url("../images/slide1/second-line.png");
 }
 /* line 95, ../sass/_main2.scss */
@@ -582,7 +582,7 @@ html, body {
 /* line 146, ../sass/_main2.scss */
 .slide2 p.first-line {
   width: 471px;
-  height: 94px;
+  height: 102px;
   background: url("../images/slide2/first-line.png");
 }
 /* line 151, ../sass/_main2.scss */
@@ -593,7 +593,7 @@ html, body {
 }
 /* line 156, ../sass/_main2.scss */
 .slide2 p.third-line {
-  width: 473px;
+  width: 472px;
   height: 27px;
   background: url("../images/slide2/third-line.png");
 }
@@ -605,7 +605,7 @@ html, body {
 }
 /* line 166, ../sass/_main2.scss */
 .slide2 p.fifth-line {
-  width: 471px;
+  width: 472px;
   height: 32px;
   background: url("../images/slide2/fifth-line.png");
 }
