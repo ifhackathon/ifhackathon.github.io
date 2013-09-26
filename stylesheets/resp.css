@@ -1,10 +1,1 @@
-/* line 1, ../sass/resp.scss */
-.slide1 .logo-wrapper span, .label, .registration-note {
-  display: none;
-}
-
-/* line 5, ../sass/resp.scss */
-.slide1 .text-container {
-  margin: 5px auto 0 auto;
-  width: 369px;
-}
+.slide1 .logo-wrapper span,.label,.registration-note{display:none}.slide1 .text-container{margin:5px auto 0 auto;width:369px}
