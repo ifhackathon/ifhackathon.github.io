@@ -434,6 +434,27 @@ html, body {
       left: 0;right: 0;
     }
   }
+
+  .registration-note {
+    left: 1%;
+    position: absolute;
+    bottom: 0;
+    line-height: 42px;
+    color: #1d3556;
+    text-transform: uppercase;
+    font-size: emCalc(13);
+    span {
+      text-transform: none;
+      font-family: $light-font-family;
+    }
+  }
+
+  @media all and (max-width: 720px) {
+    .registration-note {
+      display: none;
+    }
+  }
+
 }
 
 @media all and (max-width: 1024px) {

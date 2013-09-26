@@ -918,9 +918,30 @@ html, body {
   left: 0;
   right: 0;
 }
+/* line 438, ../sass/_main2.scss */
+.slide3 .registration-note {
+  left: 1%;
+  position: absolute;
+  bottom: 0;
+  line-height: 42px;
+  color: #1d3556;
+  text-transform: uppercase;
+  font-size: 0.8125em;
+}
+/* line 446, ../sass/_main2.scss */
+.slide3 .registration-note span {
+  text-transform: none;
+  font-family: "kelson_sans_rulight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+@media all and (max-width: 720px) {
+  /* line 453, ../sass/_main2.scss */
+  .slide3 .registration-note {
+    display: none;
+  }
+}
 
 @media all and (max-width: 1024px) {
-  /* line 442, ../sass/_main2.scss */
+  /* line 463, ../sass/_main2.scss */
   .slide3 .mackbook .top {
     height: 99%;
     -webkit-border-radius: 24px;
@@ -929,21 +950,21 @@ html, body {
     -o-border-radius: 24px;
     border-radius: 24px;
   }
-  /* line 446, ../sass/_main2.scss */
+  /* line 467, ../sass/_main2.scss */
   .slide3 .mackbook .top .screen {
     width: 92%;
   }
-  /* line 450, ../sass/_main2.scss */
+  /* line 471, ../sass/_main2.scss */
   .slide3 .mackbook .bottom {
     display: none;
   }
-  /* line 453, ../sass/_main2.scss */
+  /* line 474, ../sass/_main2.scss */
   .slide3 .mackbook .shadow {
     width: 80%;
   }
 }
 @media all and (max-width: 600px) {
-  /* line 462, ../sass/_main2.scss */
+  /* line 483, ../sass/_main2.scss */
   .slide3 .mackbook .top {
     width: 85%;
     height: 99%;
@@ -953,38 +974,38 @@ html, body {
     -o-border-radius: 24px;
     border-radius: 24px;
   }
-  /* line 466, ../sass/_main2.scss */
+  /* line 487, ../sass/_main2.scss */
   .slide3 .mackbook .top .camera {
     width: 10px;
     height: 10px;
     top: 1.6%;
   }
-  /* line 471, ../sass/_main2.scss */
+  /* line 492, ../sass/_main2.scss */
   .slide3 .mackbook .top .screen {
     width: 92%;
   }
-  /* line 476, ../sass/_main2.scss */
+  /* line 497, ../sass/_main2.scss */
   .slide3 .mackbook .shadow {
     width: 90%;
   }
 }
-/* line 487, ../sass/_main2.scss */
+/* line 508, ../sass/_main2.scss */
 .slide4 {
   position: relative;
 }
-/* line 489, ../sass/_main2.scss */
+/* line 510, ../sass/_main2.scss */
 .slide4 .nav {
   background-position: 0 -144px;
   height: 48px;
   color: #1d3556;
   bottom: 39px;
 }
-/* line 495, ../sass/_main2.scss */
+/* line 516, ../sass/_main2.scss */
 .slide4 #map {
   height: 100%;
   z-index: 1;
 }
-/* line 499, ../sass/_main2.scss */
+/* line 520, ../sass/_main2.scss */
 .slide4 .map-data {
   z-index: 10;
   width: 397px;
@@ -995,7 +1016,7 @@ html, body {
   right: 6%;
   top: 60px;
 }
-/* line 508, ../sass/_main2.scss */
+/* line 529, ../sass/_main2.scss */
 .slide4 .map-data span {
   display: block;
   width: 331px;
@@ -1004,19 +1025,19 @@ html, body {
   border: 1px solid #1d3556;
   text-align: center;
 }
-/* line 515, ../sass/_main2.scss */
+/* line 536, ../sass/_main2.scss */
 .slide4 .map-data span a {
   color: #1d3556;
   font-weight: bold;
   text-decoration: none;
   font-size: 18px;
 }
-/* line 521, ../sass/_main2.scss */
+/* line 542, ../sass/_main2.scss */
 .slide4 .map-data span p {
   margin: 0;
   line-height: 1.6em;
 }
-/* line 525, ../sass/_main2.scss */
+/* line 546, ../sass/_main2.scss */
 .slide4 .map-data span:before {
   content: '';
   left: 6px;
@@ -1028,7 +1049,7 @@ html, body {
   position: absolute;
   background: url("../images/map_ellipse_left.png");
 }
-/* line 536, ../sass/_main2.scss */
+/* line 557, ../sass/_main2.scss */
 .slide4 .map-data span:after {
   content: '';
   width: 17px;
@@ -1040,19 +1061,19 @@ html, body {
   right: 6px;
   background: url("../images/map_ellipse_right.png");
 }
-/* line 547, ../sass/_main2.scss */
+/* line 568, ../sass/_main2.scss */
 .slide4 .map-data span .phone {
   font-family: "kelson_sans_rulight","Helvetica Neue","Helvetica",Arial,sans-serif;
   font-size: 40px;
   color: #fff;
 }
-/* line 552, ../sass/_main2.scss */
+/* line 573, ../sass/_main2.scss */
 .slide4 .map-data span .address {
   color: #1d3556;
   font-size: 15px;
 }
 
-/* line 560, ../sass/_main2.scss */
+/* line 581, ../sass/_main2.scss */
 footer {
   background-color: #e5d196;
   height: 39px;
@@ -1063,14 +1084,14 @@ footer {
   color: #1d3556;
   font-family: "kelson_sans_ruregular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
-/* line 569, ../sass/_main2.scss */
+/* line 590, ../sass/_main2.scss */
 footer p {
   margin: 0;
   font-size: 11px;
   line-height: 39px;
   padding-left: 0.875em;
 }
-/* line 576, ../sass/_main2.scss */
+/* line 597, ../sass/_main2.scss */
 footer a {
   position: absolute;
   right: 0;
