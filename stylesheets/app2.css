@@ -620,6 +620,7 @@ html, body {
 }
 /* line 180, ../sass/_main2.scss */
 .slide2 p.time-left-label {
+  display: none;
   width: 464px;
   height: 29px;
   background: url("../images/slide2/time-left-label.png");
@@ -643,6 +644,7 @@ html, body {
 }
 /* line 200, ../sass/_main2.scss */
 .slide2 #countdown_container {
+  display: none;
   font-family: 'metropolis_1920regular',"Helvetica Neue", "Helvetica",Arial,sans-serif;
   color: #fff;
   width: 472px;
